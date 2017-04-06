@@ -1,26 +1,23 @@
 {
-  "name": "network",
-  "version": "0.3.2",
-  "description": "Cross platform network utilities for Node.js (gateway_ip, MAC address, etc)",
+  "name": "routes",
+  "version": "0.5.0",
+  "description": "Cross platform network utility to fetch the routes from a system. Based off the 'network' module developed by Tomas Pollak.",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "network": "./bin/network"
-  },
   "dependencies": {
     "async": "^1.5.2",
     "needle": "1.1.2",
-    "wmic": "^0.1.0"
+    "node-wmi": "0.0.4"
   },
   "author": {
-    "name": "Tomas Pollak",
-    "email": "tomas@forkhq.com"
+    "name": "Josep Mateu Clemente",
+    "email": "jmateu.clemente@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomas/network.git"
+    "url": "https://github.com/Immoweb/routes.git"
   },
   "license": "MIT"
 }
